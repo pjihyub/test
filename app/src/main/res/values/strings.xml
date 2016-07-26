@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_unit_id_banner">ca-app-pub-6320182730172481/7072287858</string>
+    <string name="ad_unit_id_interstitial">ca-app-pub-6320182730172481/8549021056</string>
+
+    <string name="app_name">스피드 구구단</string>
+    <string name="analytics_webview">webview</string>
+
+    <string name="load">불러오기</string>
+    <string name="back">메인</string>
+
+    <string name="gugu">구구단표</string>
+    <string name="munje">문제풀이</string>
+
+    <string name="powerurl">http://inergy.iptime.org/108apps/008_gugudan/gugudan.html</string>
+
+    <string name="end_popup_url">http://inergy.iptime.org/108apps/endpopup.html</string>
+    <string name="end_popup_url2">http://inergy.iptime.org/108apps/endpopup_flashlight.html</string>
+
+    <string name="okay">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="byebye">종료</string>
+
+    <string name="ask_to_quit">앱을 종료할까요?</string>
+
+    <string name="header_munje">구구단 게임</string>
+    <string name="header_gugu">구구단표</string>
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+
+        <WebView
+            android:id="@+id/powerWebViewDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="80dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/finish_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:text="@string/cancel"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:textSize="24sp"
+
+                />
+
+            <Button
+                android:id="@+id/finish_yes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:text="@string/byebye"
+                android:textColor="@android:color/black"
+                android:background="@color/byebye"
+                android:textSize="24sp"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="18sp"-->
+        <!--android:layout_marginBottom="86dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="@string/ask_to_quit"-->
+        <!--android:gravity="center|center_horizontal"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--/>-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:background="@drawable/label_top"
+
+        >
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_back"
+            android:text="@string/back"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/label_back"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gugu"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_gugu"
+            android:text="@string/munje"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/label_back"
+            />
+
+    </LinearLayout>
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/powerWebView" />
+
+</LinearLayout>
